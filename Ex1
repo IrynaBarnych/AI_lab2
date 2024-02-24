@@ -1,0 +1,110 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNYW4opPajxIi9qW2ZmebF4",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/IrynaBarnych/AI_lab2/blob/hw2_ex1/Untitled0.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "k2PTc_4k0anF"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Домашня робота АІ№2"
+      ],
+      "metadata": {
+        "id": "7tP1aNXa1I71"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "_2MFgucS1IRx"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Імпортуйте модуль numpy\n"
+      ],
+      "metadata": {
+        "id": "TerkjYJr1VI5"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "import numpy as np"
+      ],
+      "metadata": {
+        "id": "BltLp_451eXX"
+      },
+      "execution_count": 2,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Завдання 1\n",
+        "Створіть масив з парними числами між 30 і 70"
+      ],
+      "metadata": {
+        "id": "Ro6NrxIY1qPn"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "f = np.arange(30,70,2)   # Create an array of values starting at 10 in increments of 5\n",
+        "print(f)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-xUpnNuL1zTq",
+        "outputId": "118065fd-244c-4595-c261-fd8d54647a94"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[30 32 34 36 38 40 42 44 46 48 50 52 54 56 58 60 62 64 66 68]\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
